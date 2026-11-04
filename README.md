@@ -1,8 +1,8 @@
 # AI Terminology
 
-A working glossary of **186 AI terms across 12 sections**, each one glossed from a named book rather than from general usage. 22 books in the bibliography.
+A working glossary of 186 AI terms across 12 sections. Each one is glossed from a named book rather than from general usage, and the bibliography runs to 22 books.
 
-It also records two things a dictionary usually leaves out: words that carry **two unrelated meanings** in this field, and phrases in common circulation that **none of these books define**.
+It also records two things a dictionary usually leaves out: words that carry two unrelated meanings in this field, and phrases in common circulation that none of these books define.
 
 ---
 
@@ -16,7 +16,7 @@ Twelve families, four stages. The badge on each box is the number of terms in th
 
 ## Where the human sits
 
-Most arguments about AI autonomy are really arguments about this one distinction, and there is a settled three-position vocabulary for it.
+Arguments about AI autonomy usually turn on this one distinction. There is a settled three-position vocabulary for it.
 
 ![The three oversight positions: human-in-the-loop, human-on-the-loop and full autonomy, with accountability fixed beneath all three](diagrams/oversight-spectrum.png)
 
@@ -30,7 +30,7 @@ Most arguments about AI autonomy are really arguments about this one distinction
 
 HITL and HOTL get used interchangeably and they are not the same. Leonid Kuligin is explicit that HOTL is oversight through *monitoring*: the implementations look alike because the annotation surfaces resemble each other, but the goals differ.
 
-The accountability line is drawn in the same book, and it is the sharpest sentence in this whole family:
+Wong draws the accountability line in the same book:
 
 > We can outsource research, analytics, and option-generation to AI, but not responsibility, and never accountability.
 >
@@ -40,7 +40,7 @@ The accountability line is drawn in the same book, and it is the sharpest senten
 
 ## Four autonomy ladders that do not agree
 
-These books contain four separate graded models. They are not variants of one scheme, and treating them as interchangeable is a common mistake. Pick one deliberately and say which you mean.
+The books contain four separate graded models. They are not variants of one scheme, and treating them as interchangeable is a common mistake. Pick one deliberately and say which you mean.
 
 | Model | Rungs | Source |
 |---|---|---|
@@ -67,7 +67,7 @@ For the operating model that follows, Trevoir Williams states it as a sequence: 
 
 ## One word, two meanings
 
-These are the homonyms that cause real confusion. When a conversation about AI goes in circles, it is usually one of these five.
+Five words carry two unrelated meanings. When a conversation about AI goes in circles, it is usually one of them.
 
 | Word | Meaning A | Meaning B |
 |---|---|---|
@@ -77,7 +77,7 @@ These are the homonyms that cause real confusion. When a conversation about AI g
 | `guardrail` | A runtime control on model input and output | An automatic data-quality check inside a training job |
 | `augmentation` | Enhancing human work with AI | Synthetically expanding a training set |
 
-Terms affected by one of these carry a small **two meanings** link in the glossary below.
+Terms affected by one of them carry a two meanings link in the glossary below.
 
 ---
 
@@ -103,7 +103,7 @@ The glossary's terms cross-reference each other 516 times. Those links are not e
 
 ![Cross-reference clusters: a build cluster of RAG, prompting and fine-tuning, an oversight cluster of guardrails, human-in-the-loop and explainability, and MLOps connected to neither](diagrams/hub-network.png)
 
-One cluster is about **getting a model to produce the right output** (retrieval, prompting, fine-tuning). The other is about **being allowed to ship it** (guardrails, human oversight, explainability, responsible AI). MLOps is the eighth hub and links to neither, despite 16 links elsewhere.
+One cluster is about getting a model to produce the right output: retrieval, prompting, fine-tuning. The other is about being allowed to ship it: guardrails, human oversight, explainability, responsible AI. MLOps is the eighth hub and links to neither, despite 16 links elsewhere.
 
 ---
 
@@ -602,12 +602,12 @@ Every definition traces to one of these. Chapter references appear in the entry 
 
 ## Method, and what this is not
 
-Each gloss summarises how a **named book** uses a term. It is not standards text, and where the books disagree the disagreement is recorded rather than resolved. Quotations are short and attributed; everything else is paraphrase.
+Each gloss summarises how a named book uses a term. This is not standards text. Where the books disagree, the disagreement is recorded rather than resolved. Quotations are short and attributed; everything else is paraphrase.
 
-Three honest limits:
+Coverage follows one personal library, so it tracks the reading rather than the field. A term missing here is not a term that does not matter.
 
-- **Coverage follows the reading, not the field.** These are the books in one personal library. A term absent here is not a term that does not matter.
-- **Some vocabulary is missing.** `context-window`, `model-drift`, `reward-hacking`, `goal-drift` and `context-rot` have no entry, because no source in this set defines them as named concepts. Failure modes (§12) is the thinnest section for that reason: five entries against §11's twenty-four.
-- **Definitions age.** This vocabulary is moving quickly. Compiled November 2026.
+Some vocabulary is simply absent. `context-window`, `model-drift`, `reward-hacking`, `goal-drift` and `context-rot` have no entry, because no source in this set defines them as named concepts. Failure modes (§12) is the thinnest section for that reason: five entries against §11's twenty-four.
+
+The vocabulary is still moving quickly, so these definitions will age. Compiled November 2026.
 
 Corrections and additions are welcome by issue or pull request, particularly a citation for anything listed above as missing.
